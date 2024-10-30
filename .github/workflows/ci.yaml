@@ -1,0 +1,9 @@
+name: OpenAPI 3 CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  ci:
+    uses: renanphellip/openapi-workflows/.github/workflows/ci.yaml@main
